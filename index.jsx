@@ -1,6 +1,6 @@
 import { createRoot } from 'react-dom/client'
 import App from './App'
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Contact from './components/Contact'
 import Home from './components/Home'
 import Error from './components/Error'
@@ -17,12 +17,12 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: '/contact',
-        element: <Contact />,
-      },
-      {
         path: '/:country',
         element: <CountryDetail />,
+      },
+      {
+        path: '/contact',
+        element: <Contact />,
       },
     ],
   },
