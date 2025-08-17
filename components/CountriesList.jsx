@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import countriesData from '../countriesData'
+import countriesData from '../CountriesData'
 import CountryCard from './CountryCard'
 
 export default function CountriesList({query}) {
